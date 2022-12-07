@@ -12,7 +12,7 @@ import Business.WorkQueue.InventoryDirectory;
 
 /**
  *
- * @author Team Void
+ * @author pavansomashekar
  */
 public class ConfigureSystem {
     
