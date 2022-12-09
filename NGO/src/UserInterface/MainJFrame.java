@@ -57,6 +57,7 @@ public class MainJFrame extends javax.swing.JFrame {
         btnLogin = new javax.swing.JButton();
         btnLogout = new javax.swing.JButton();
         userProcessContainer = new javax.swing.JPanel();
+        jLabel4 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -66,43 +67,50 @@ public class MainJFrame extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
         jLabel1.setText("Username");
-        upperContainer.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, -1));
+        upperContainer.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
         jLabel2.setText("Password");
-        upperContainer.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, -1, -1));
-        upperContainer.add(txtUsername, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 100, 104, -1));
-        upperContainer.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 140, 104, -1));
+        upperContainer.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, -1, -1));
+        upperContainer.add(txtUsername, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 100, 104, -1));
+        upperContainer.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 140, 104, -1));
 
         btnLogin.setBackground(new java.awt.Color(247, 183, 13));
         btnLogin.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
         btnLogin.setForeground(new java.awt.Color(255, 255, 255));
         btnLogin.setText("Login");
+        btnLogin.setBorder(null);
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLoginActionPerformed(evt);
             }
         });
-        upperContainer.add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 207, 104, 20));
+        upperContainer.add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 207, 90, 20));
 
         btnLogout.setBackground(new java.awt.Color(247, 183, 13));
         btnLogout.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
         btnLogout.setForeground(new java.awt.Color(255, 255, 255));
         btnLogout.setText("Logout");
+        btnLogout.setBorder(null);
         btnLogout.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLogoutActionPerformed(evt);
             }
         });
-        upperContainer.add(btnLogout, new org.netbeans.lib.awtextra.AbsoluteConstraints(9, 207, 104, 20));
+        upperContainer.add(btnLogout, new org.netbeans.lib.awtextra.AbsoluteConstraints(9, 207, 90, 20));
 
         jSplitPane1.setLeftComponent(upperContainer);
 
         userProcessContainer.setBackground(new java.awt.Color(255, 255, 255));
-        userProcessContainer.setLayout(new java.awt.CardLayout());
+        userProcessContainer.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel4.setFont(new java.awt.Font("Bodoni MT Black", 1, 48)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(127, 180, 50));
+        jLabel4.setText("NGO MANAGEMENT SYSTEM");
+        userProcessContainer.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 10, -1, -1));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/Images/background.png"))); // NOI18N
-        userProcessContainer.add(jLabel3, "card2");
+        userProcessContainer.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, -1, -1));
 
         jSplitPane1.setRightComponent(userProcessContainer);
 
@@ -294,6 +302,7 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JSplitPane jSplitPane1;
     private javax.swing.JPasswordField txtPassword;
     private javax.swing.JTextField txtUsername;
