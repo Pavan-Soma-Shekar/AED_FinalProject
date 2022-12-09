@@ -49,7 +49,7 @@ public class MainJFrame extends javax.swing.JFrame {
     private void initComponents() {
 
         jSplitPane1 = new javax.swing.JSplitPane();
-        leftContainer = new javax.swing.JPanel();
+        upperContainer = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         txtUsername = new javax.swing.JTextField();
@@ -61,84 +61,48 @@ public class MainJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        leftContainer.setBackground(new java.awt.Color(204, 204, 255));
+        upperContainer.setBackground(new java.awt.Color(255, 255, 255));
+        upperContainer.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
         jLabel1.setText("Username");
+        upperContainer.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
         jLabel2.setText("Password");
+        upperContainer.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, -1, -1));
+        upperContainer.add(txtUsername, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 100, 104, -1));
+        upperContainer.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 140, 104, -1));
 
+        btnLogin.setBackground(new java.awt.Color(247, 183, 13));
         btnLogin.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
+        btnLogin.setForeground(new java.awt.Color(255, 255, 255));
         btnLogin.setText("Login");
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLoginActionPerformed(evt);
             }
         });
+        upperContainer.add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 207, 104, 20));
 
+        btnLogout.setBackground(new java.awt.Color(247, 183, 13));
         btnLogout.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
+        btnLogout.setForeground(new java.awt.Color(255, 255, 255));
         btnLogout.setText("Logout");
         btnLogout.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLogoutActionPerformed(evt);
             }
         });
+        upperContainer.add(btnLogout, new org.netbeans.lib.awtextra.AbsoluteConstraints(9, 207, 104, 20));
 
-        javax.swing.GroupLayout leftContainerLayout = new javax.swing.GroupLayout(leftContainer);
-        leftContainer.setLayout(leftContainerLayout);
-        leftContainerLayout.setHorizontalGroup(
-            leftContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(leftContainerLayout.createSequentialGroup()
-                .addGroup(leftContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(leftContainerLayout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addGroup(leftContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel1))
-                        .addGap(24, 24, 24))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, leftContainerLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(btnLogout, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
-                .addGroup(leftContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtUsername, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        leftContainerLayout.setVerticalGroup(
-            leftContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(leftContainerLayout.createSequentialGroup()
-                .addGap(95, 95, 95)
-                .addGroup(leftContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(txtUsername, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(leftContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel2)
-                    .addComponent(txtPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(50, 50, 50)
-                .addGroup(leftContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnLogout, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(851, Short.MAX_VALUE))
-        );
+        jSplitPane1.setLeftComponent(upperContainer);
 
-        jSplitPane1.setLeftComponent(leftContainer);
+        userProcessContainer.setBackground(new java.awt.Color(255, 255, 255));
+        userProcessContainer.setLayout(new java.awt.CardLayout());
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("/Users/pavansomashekar/Downloads/ngo_backgound.jpeg")); // NOI18N
-
-        javax.swing.GroupLayout userProcessContainerLayout = new javax.swing.GroupLayout(userProcessContainer);
-        userProcessContainer.setLayout(userProcessContainerLayout);
-        userProcessContainerLayout.setHorizontalGroup(
-            userProcessContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-        userProcessContainerLayout.setVerticalGroup(
-            userProcessContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/Images/background.png"))); // NOI18N
+        userProcessContainer.add(jLabel3, "card2");
 
         jSplitPane1.setRightComponent(userProcessContainer);
 
@@ -146,7 +110,7 @@ public class MainJFrame extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jSplitPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 2163, Short.MAX_VALUE)
+            .addComponent(jSplitPane1)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -331,9 +295,9 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JSplitPane jSplitPane1;
-    private javax.swing.JPanel leftContainer;
     private javax.swing.JPasswordField txtPassword;
     private javax.swing.JTextField txtUsername;
+    private javax.swing.JPanel upperContainer;
     private javax.swing.JPanel userProcessContainer;
     // End of variables declaration//GEN-END:variables
 }
