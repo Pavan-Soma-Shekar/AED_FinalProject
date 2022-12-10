@@ -102,15 +102,31 @@ public class MainJFrame extends javax.swing.JFrame {
         jSplitPane1.setLeftComponent(upperContainer);
 
         userProcessContainer.setBackground(new java.awt.Color(255, 255, 255));
-        userProcessContainer.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel4.setFont(new java.awt.Font("Bodoni MT Black", 1, 48)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(127, 180, 50));
         jLabel4.setText("NGO MANAGEMENT SYSTEM");
-        userProcessContainer.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 10, -1, -1));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/Images/background.png"))); // NOI18N
-        userProcessContainer.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, -1, -1));
+
+        javax.swing.GroupLayout userProcessContainerLayout = new javax.swing.GroupLayout(userProcessContainer);
+        userProcessContainer.setLayout(userProcessContainerLayout);
+        userProcessContainerLayout.setHorizontalGroup(
+            userProcessContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(userProcessContainerLayout.createSequentialGroup()
+                .addGap(260, 260, 260)
+                .addComponent(jLabel4))
+            .addGroup(userProcessContainerLayout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addComponent(jLabel3))
+        );
+        userProcessContainerLayout.setVerticalGroup(
+            userProcessContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(userProcessContainerLayout.createSequentialGroup()
+                .addGap(10, 10, 10)
+                .addComponent(jLabel4))
+            .addComponent(jLabel3)
+        );
 
         jSplitPane1.setRightComponent(userProcessContainer);
 
