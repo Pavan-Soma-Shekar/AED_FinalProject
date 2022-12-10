@@ -73,7 +73,9 @@ public class MainJFrame extends javax.swing.JFrame {
         txtPassword.setUI(null);
         upperContainer.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(195, 37, 3, 0));
 
+        btnLogin.setBackground(new java.awt.Color(247, 183, 13));
         btnLogin.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
+        btnLogin.setForeground(new java.awt.Color(255, 255, 255));
         btnLogin.setText("Login");
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -92,7 +94,9 @@ public class MainJFrame extends javax.swing.JFrame {
         jLabel2.setText("Password");
         upperContainer.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 40, -1, -1));
 
+        btnLogout.setBackground(new java.awt.Color(247, 183, 13));
         btnLogout.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
+        btnLogout.setForeground(new java.awt.Color(255, 255, 255));
         btnLogout.setText("Logout");
         btnLogout.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -112,6 +116,7 @@ public class MainJFrame extends javax.swing.JFrame {
         userProcessContainer.setBackground(new java.awt.Color(255, 255, 255));
 <<<<<<< HEAD
 =======
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         userProcessContainer.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 >>>>>>> priyanka
@@ -154,9 +159,10 @@ public class MainJFrame extends javax.swing.JFrame {
             .addComponent(jSplitPane1)
         );
 =======
+=======
+>>>>>>> Stashed changes
         userProcessContainer.setLayout(new java.awt.CardLayout());
 
-        jLabel4.setBackground(new java.awt.Color(255, 255, 255));
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/Images/background.png"))); // NOI18N
         jLabel4.setText("jLabel4");
         userProcessContainer.add(jLabel4, "card2");
@@ -164,10 +170,27 @@ public class MainJFrame extends javax.swing.JFrame {
         jSplitPane.setRightComponent(userProcessContainer);
 
         getContentPane().add(jSplitPane, java.awt.BorderLayout.CENTER);
->>>>>>> Stashed changes
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnLogoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLogoutActionPerformed
+
+        btnLogout.setEnabled(false);
+        txtUsername.setEnabled(true);
+        txtPasswordField.setEnabled(true);
+        btnLogin.setEnabled(true);
+
+        txtUsername.setText("");
+        txtPasswordField.setText("");
+
+        userProcessContainer.removeAll();
+        JPanel blankJP = new JPanel();
+        userProcessContainer.add("blank", blankJP);
+        CardLayout crdLyt = (CardLayout) userProcessContainer.getLayout();
+        crdLyt.next(userProcessContainer);
+        dB4OUtil.storeSystem(system);
+    }//GEN-LAST:event_btnLogoutActionPerformed
 
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
 
@@ -280,24 +303,6 @@ public class MainJFrame extends javax.swing.JFrame {
         txtUsername.setEnabled(false);
         txtPassword.setEnabled(false);
     }//GEN-LAST:event_btnLoginActionPerformed
-
-    private void btnLogoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLogoutActionPerformed
-
-        btnLogout.setEnabled(false);
-        txtUsername.setEnabled(true);
-        txtPasswordField.setEnabled(true);
-        btnLogin.setEnabled(true);
-
-        txtUsername.setText("");
-        txtPasswordField.setText("");
-
-        userProcessContainer.removeAll();
-        JPanel blankJP = new JPanel();
-        userProcessContainer.add("blank", blankJP);
-        CardLayout crdLyt = (CardLayout) userProcessContainer.getLayout();
-        crdLyt.next(userProcessContainer);
-        dB4OUtil.storeSystem(system);
-    }//GEN-LAST:event_btnLogoutActionPerformed
 
     /**
      * @param args the command line arguments

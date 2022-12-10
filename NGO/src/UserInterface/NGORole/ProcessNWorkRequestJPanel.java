@@ -53,11 +53,8 @@ public class ProcessNWorkRequestJPanel extends javax.swing.JPanel {
         jLabel2 = new javax.swing.JLabel();
         radioRejected = new javax.swing.JRadioButton();
         radioApproved = new javax.swing.JRadioButton();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         submitJButton.setBackground(new java.awt.Color(247, 183, 13));
         submitJButton.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
@@ -69,12 +66,10 @@ public class ProcessNWorkRequestJPanel extends javax.swing.JPanel {
                 submitJButtonActionPerformed(evt);
             }
         });
-        add(submitJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 276, 219, 35));
 
         jLabel1.setFont(new java.awt.Font("Bodoni MT", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(153, 153, 153));
         jLabel1.setText("Result:");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 195, -1, -1));
 
         backJButton.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
         backJButton.setForeground(new java.awt.Color(102, 102, 102));
@@ -84,28 +79,58 @@ public class ProcessNWorkRequestJPanel extends javax.swing.JPanel {
                 backJButtonActionPerformed(evt);
             }
         });
-        add(backJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 317, 219, 32));
 
         jLabel2.setFont(new java.awt.Font("Bodoni MT", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(127, 180, 50));
         jLabel2.setText("Processing Request");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(19, 25, -1, -1));
 
         radioRejected.setForeground(new java.awt.Color(51, 51, 51));
         radioRejected.setText("Rejected");
-        add(radioRejected, new org.netbeans.lib.awtextra.AbsoluteConstraints(105, 230, -1, -1));
 
         radioApproved.setForeground(new java.awt.Color(51, 51, 51));
         radioApproved.setText("Approved");
-        add(radioApproved, new org.netbeans.lib.awtextra.AbsoluteConstraints(105, 195, -1, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proces.PNG"))); // NOI18N
-        jLabel3.setText("jLabel3");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 117, 252, -1));
-
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Union1.png"))); // NOI18N
-        jLabel4.setText("jLabel4");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 20, 530, -1));
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addComponent(jLabel2))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(40, 40, 40)
+                        .addComponent(jLabel1)
+                        .addGap(12, 12, 12)
+                        .addComponent(radioApproved))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(105, 105, 105)
+                        .addComponent(radioRejected))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(40, 40, 40)
+                        .addComponent(submitJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 219, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(40, 40, 40)
+                        .addComponent(backJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 219, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(621, 621, 621))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(25, 25, 25)
+                .addComponent(jLabel2)
+                .addGap(141, 141, 141)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel1)
+                    .addComponent(radioApproved))
+                .addGap(12, 12, 12)
+                .addComponent(radioRejected)
+                .addGap(26, 26, 26)
+                .addComponent(submitJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(6, 6, 6)
+                .addComponent(backJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
     }// </editor-fold>//GEN-END:initComponents
 
     private void submitJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitJButtonActionPerformed
@@ -147,8 +172,6 @@ public class ProcessNWorkRequestJPanel extends javax.swing.JPanel {
     private javax.swing.JButton backJButton;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JRadioButton radioApproved;
     private javax.swing.JRadioButton radioRejected;
     private javax.swing.JButton submitJButton;
