@@ -1,6 +1,7 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
 package UserInterface;
 
@@ -22,7 +23,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author pavansomashekar
+ * @author priyanka
  */
 public class MainJFrame extends javax.swing.JFrame {
 
@@ -48,60 +49,72 @@ public class MainJFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jSplitPane1 = new javax.swing.JSplitPane();
+        jSplitPane = new javax.swing.JSplitPane();
         upperContainer = new javax.swing.JPanel();
+        txtUsername = new javax.swing.JTextField();
+        txtPassword = new javax.swing.JTextField();
+        btnLogin = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        txtUsername = new javax.swing.JTextField();
-        txtPassword = new javax.swing.JPasswordField();
-        btnLogin = new javax.swing.JButton();
         btnLogout = new javax.swing.JButton();
+        txtPasswordField = new javax.swing.JPasswordField();
+        enterpriseLabel = new javax.swing.JLabel();
         userProcessContainer = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jSplitPane.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
+
         upperContainer.setBackground(new java.awt.Color(255, 255, 255));
         upperContainer.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        upperContainer.add(txtUsername, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 10, 104, -1));
 
-        jLabel1.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
-        jLabel1.setText("Username");
-        upperContainer.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, -1, -1));
+        txtPassword.setUI(null);
+        upperContainer.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(195, 37, 3, 0));
 
-        jLabel2.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
-        jLabel2.setText("Password");
-        upperContainer.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, -1, -1));
-        upperContainer.add(txtUsername, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 100, 104, -1));
-        upperContainer.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 140, 104, -1));
-
-        btnLogin.setBackground(new java.awt.Color(247, 183, 13));
         btnLogin.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
-        btnLogin.setForeground(new java.awt.Color(255, 255, 255));
         btnLogin.setText("Login");
-        btnLogin.setBorder(null);
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLoginActionPerformed(evt);
             }
         });
-        upperContainer.add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 207, 90, 20));
+        upperContainer.add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 104, 20));
 
-        btnLogout.setBackground(new java.awt.Color(247, 183, 13));
+        jLabel1.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel1.setText("Username");
+        upperContainer.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, -1, -1));
+
+        jLabel2.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel2.setText("Password");
+        upperContainer.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 40, -1, -1));
+
         btnLogout.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
-        btnLogout.setForeground(new java.awt.Color(255, 255, 255));
         btnLogout.setText("Logout");
-        btnLogout.setBorder(null);
         btnLogout.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLogoutActionPerformed(evt);
             }
         });
-        upperContainer.add(btnLogout, new org.netbeans.lib.awtextra.AbsoluteConstraints(9, 207, 90, 20));
+        upperContainer.add(btnLogout, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 120, 20));
+        upperContainer.add(txtPasswordField, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 40, 104, -1));
 
-        jSplitPane1.setLeftComponent(upperContainer);
+        enterpriseLabel.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
+        enterpriseLabel.setForeground(new java.awt.Color(127, 180, 50));
+        enterpriseLabel.setText("FOOD MANAGEMENT SYSTEM");
+        upperContainer.add(enterpriseLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 20, 500, 60));
+
+        jSplitPane.setTopComponent(upperContainer);
 
         userProcessContainer.setBackground(new java.awt.Color(255, 255, 255));
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+        userProcessContainer.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+>>>>>>> priyanka
 
         jLabel4.setFont(new java.awt.Font("Bodoni MT Black", 1, 48)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(127, 180, 50));
@@ -140,6 +153,18 @@ public class MainJFrame extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jSplitPane1)
         );
+=======
+        userProcessContainer.setLayout(new java.awt.CardLayout());
+
+        jLabel4.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/Images/background.png"))); // NOI18N
+        jLabel4.setText("jLabel4");
+        userProcessContainer.add(jLabel4, "card2");
+
+        jSplitPane.setRightComponent(userProcessContainer);
+
+        getContentPane().add(jSplitPane, java.awt.BorderLayout.CENTER);
+>>>>>>> Stashed changes
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -147,10 +172,10 @@ public class MainJFrame extends javax.swing.JFrame {
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
 
         String uname = txtUsername.getText();
-        char[] password1 = txtPassword.getPassword();
-        
+        char[] password1 = txtPasswordField.getPassword();
+
         if(uname.equalsIgnoreCase("") || password1.equals("") || (uname.equalsIgnoreCase("") && password1.equals(""))){
-            
+
             JOptionPane.showMessageDialog(null, "Fields Cannot Be Empty!", "Warning",JOptionPane.WARNING_MESSAGE);
             return;
         }
@@ -158,7 +183,7 @@ public class MainJFrame extends javax.swing.JFrame {
         // Get user name
         String userName = txtUsername.getText();
         // Get Password
-        char[] passwordCharArray = txtPassword.getPassword();
+        char[] passwordCharArray = txtPasswordField.getPassword();
         String password = String.valueOf(passwordCharArray);
 
         //Step1: Check in the system admin user account directory if you have the user
@@ -208,9 +233,9 @@ public class MainJFrame extends javax.swing.JFrame {
             userProcessContainer.add("workArea",userAccount.getRole().createWorkArea(userProcessContainer, userAccount, inOrganization, inEnterprise, system));
             layout.next(userProcessContainer);
         }
-        
+
         //***************************** Starting of Email Logic
-        
+
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
         props.put("mail.smtp.port", 465);
@@ -220,16 +245,16 @@ public class MainJFrame extends javax.swing.JFrame {
         props.put("mail.smtp.debug", "true");
         props.put("mail.smtp.socketFactory.port", 465);
         props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
-        props.put("mail.smtp.socketFactory.fallback", "false"); 
+        props.put("mail.smtp.socketFactory.fallback", "false");
         try {
-            //Class.forName("com.mysql.jdbc.Driver");       
-           // Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/shoppingcart","root","Bintu2018$");
-           // String query = "select Password from users where EmailAddress LIKE '"+jTextFieldEmailAdd.getText().trim()+"'";
+            //Class.forName("com.mysql.jdbc.Driver");
+            // Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/shoppingcart","root","Bintu2018$");
+            // String query = "select Password from users where EmailAddress LIKE '"+jTextFieldEmailAdd.getText().trim()+"'";
             //PreparedStatement statmnt = con.prepareStatement(query);
-            //ResultSet result = statmnt.executeQuery();               
-           // if (result.next())
-           // {   
-               // String fetchedPassword = result.getString("Password");               
+            //ResultSet result = statmnt.executeQuery();
+            // if (result.next())
+            // {
+                // String fetchedPassword = result.getString("Password");
                 Session session = Session.getDefaultInstance(props, null);
                 session.setDebug(true);
                 MimeMessage message = new MimeMessage(session);
@@ -242,31 +267,29 @@ public class MainJFrame extends javax.swing.JFrame {
                 transport.connect("smtp.gmail.com", "voidxisalive@gmail.com", "Voidx@12345");
                 transport.sendMessage(message, message.getAllRecipients());
                 transport.close();
-                //jLabelResponse.setText("Your password mailed to you");         
-           // }
+                //jLabelResponse.setText("Your password mailed to you");
+                // }
         } catch (Exception e) {
-            e.printStackTrace();  
+            e.printStackTrace();
             //jLabelResponse.setText("Email Address not found");
-        }  
+        }
         //*************************************End of addition for sending mail
-
 
         btnLogin.setEnabled(false);
         btnLogout.setEnabled(true);
         txtUsername.setEnabled(false);
         txtPassword.setEnabled(false);
-        
     }//GEN-LAST:event_btnLoginActionPerformed
 
     private void btnLogoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLogoutActionPerformed
 
         btnLogout.setEnabled(false);
         txtUsername.setEnabled(true);
-        txtPassword.setEnabled(true);
+        txtPasswordField.setEnabled(true);
         btnLogin.setEnabled(true);
 
         txtUsername.setText("");
-        txtPassword.setText("");
+        txtPasswordField.setText("");
 
         userProcessContainer.removeAll();
         JPanel blankJP = new JPanel();
@@ -274,7 +297,6 @@ public class MainJFrame extends javax.swing.JFrame {
         CardLayout crdLyt = (CardLayout) userProcessContainer.getLayout();
         crdLyt.next(userProcessContainer);
         dB4OUtil.storeSystem(system);
-
     }//GEN-LAST:event_btnLogoutActionPerformed
 
     /**
@@ -315,12 +337,13 @@ public class MainJFrame extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnLogin;
     private javax.swing.JButton btnLogout;
+    private javax.swing.JLabel enterpriseLabel;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JSplitPane jSplitPane1;
-    private javax.swing.JPasswordField txtPassword;
+    private javax.swing.JSplitPane jSplitPane;
+    private javax.swing.JTextField txtPassword;
+    private javax.swing.JPasswordField txtPasswordField;
     private javax.swing.JTextField txtUsername;
     private javax.swing.JPanel upperContainer;
     private javax.swing.JPanel userProcessContainer;
