@@ -99,11 +99,17 @@ public class ProcessNWorkRequestJPanel extends javax.swing.JPanel {
         radioApproved.setText("Approved");
         add(radioApproved, new org.netbeans.lib.awtextra.AbsoluteConstraints(105, 195, -1, -1));
 
+<<<<<<< Updated upstream
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/Images/proces.PNG"))); // NOI18N
         jLabel3.setText("jLabel3");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 117, 252, -1));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/Images/Union1.png"))); // NOI18N
+=======
+        jLabel3.setText("jLabel3");
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 117, 252, -1));
+
+>>>>>>> Stashed changes
         jLabel4.setText("jLabel4");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 20, 530, -1));
     }// </editor-fold>//GEN-END:initComponents
