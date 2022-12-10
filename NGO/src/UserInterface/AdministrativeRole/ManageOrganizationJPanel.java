@@ -21,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author pavansomshekar
+ * @author Team Void
  */
 public class ManageOrganizationJPanel extends javax.swing.JPanel {
 
@@ -57,15 +57,8 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         btnAddOrganization = new javax.swing.JButton();
         organizationJComboBox = new javax.swing.JComboBox();
         jLabel4 = new javax.swing.JLabel();
-<<<<<<< HEAD
-        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-=======
-
-        setBackground(new java.awt.Color(255, 255, 255));
->>>>>>> priyanka
 
         tblOrganizations.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -89,18 +82,9 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
             tblOrganizations.getColumnModel().getColumn(1).setResizable(false);
         }
 
-<<<<<<< HEAD
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 95, 505, 110));
-
         jLabel2.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(153, 153, 153));
         jLabel2.setText("Organization Type");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(523, 98, -1, -1));
-=======
-        jLabel2.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel2.setText("Organization Type");
->>>>>>> priyanka
 
         btnBack.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
         btnBack.setForeground(new java.awt.Color(102, 102, 102));
@@ -110,10 +94,6 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
                 btnBackActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(611, 26, 117, -1));
-=======
->>>>>>> priyanka
 
         btnAddOrganization.setBackground(new java.awt.Color(247, 183, 13));
         btnAddOrganization.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
@@ -125,31 +105,16 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
                 btnAddOrganizationActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-        add(btnAddOrganization, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 232, 169, 35));
-=======
->>>>>>> priyanka
 
         organizationJComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 organizationJComboBoxActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
-        add(organizationJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(647, 95, 81, -1));
-=======
->>>>>>> priyanka
 
         jLabel4.setFont(new java.awt.Font("Bodoni MT", 1, 24)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(127, 180, 50));
         jLabel4.setText("List Of Organizations");
-<<<<<<< HEAD
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 26, -1, -1));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Union1.png"))); // NOI18N
-        jLabel1.setText("jLabel1");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 550, -1));
-=======
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -187,7 +152,6 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
                 .addGap(27, 27, 27)
                 .addComponent(btnAddOrganization, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
->>>>>>> priyanka
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAddOrganizationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddOrganizationActionPerformed
@@ -365,10 +329,6 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAddOrganization;
     private javax.swing.JButton btnBack;
-<<<<<<< HEAD
-    private javax.swing.JLabel jLabel1;
-=======
->>>>>>> priyanka
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JScrollPane jScrollPane1;
