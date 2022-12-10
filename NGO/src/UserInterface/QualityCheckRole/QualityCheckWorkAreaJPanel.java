@@ -194,13 +194,13 @@ public class QualityCheckWorkAreaJPanel extends javax.swing.JPanel {
         jLabel2.setText("Products");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 311, -1, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Union1.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/Images/Union1.png"))); // NOI18N
         jLabel3.setText("jLabel3");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 550, 400));
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 550, -1));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Union.png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/Images/Union.png"))); // NOI18N
         jLabel4.setText("jLabel4");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 10, 560, 310));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 10, 550, 310));
     }// </editor-fold>//GEN-END:initComponents
 
     private void assignJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_assignJButtonActionPerformed

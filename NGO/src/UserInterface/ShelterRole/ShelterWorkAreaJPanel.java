@@ -206,11 +206,9 @@ public class ShelterWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(showProductBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(831, 404, 147, 40));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Union1.png"))); // NOI18N
         jLabel1.setText("jLabel1");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 130, 560, 400));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Union1.png"))); // NOI18N
         jLabel2.setText("jLabel2");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, -90, 550, 480));
     }// </editor-fold>//GEN-END:initComponents
