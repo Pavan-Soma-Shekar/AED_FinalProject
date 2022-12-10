@@ -146,6 +146,7 @@ public class NGOWorkAreaJPanel extends javax.swing.JPanel {
 
         refreshJButton.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
         refreshJButton.setForeground(new java.awt.Color(102, 102, 102));
+        refreshJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Untitled design (2).png"))); // NOI18N
         refreshJButton.setText("Refresh");
         refreshJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -203,7 +204,7 @@ public class NGOWorkAreaJPanel extends javax.swing.JPanel {
         jLabel1.setText("Work Request");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 46, 157, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/Images/Union1.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Union1.png"))); // NOI18N
         jLabel3.setText("jLabel3");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, -40, 550, 420));
     }// </editor-fold>//GEN-END:initComponents

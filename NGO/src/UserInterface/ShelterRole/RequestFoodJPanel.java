@@ -282,7 +282,7 @@ public class RequestFoodJPanel extends javax.swing.JPanel {
         enterpriseLabel1.setText("EnterPrise :");
         add(enterpriseLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 120, 30));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/Images/Union1.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Union1.png"))); // NOI18N
         jLabel3.setText("jLabel3");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 210, 560, -1));
     }// </editor-fold>//GEN-END:initComponents
