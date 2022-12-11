@@ -108,7 +108,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
         enterpriseLabel.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
         enterpriseLabel.setForeground(new java.awt.Color(127, 180, 50));
-        enterpriseLabel.setText("FOOD MANAGEMENT SYSTEM");
+        enterpriseLabel.setText("NGO MANAGEMENT SYSTEM");
         upperContainer.add(enterpriseLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 20, 500, 60));
 
         jSplitPane.setTopComponent(upperContainer);
