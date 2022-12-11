@@ -3,19 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-<<<<<<< Updated upstream:NGO/src/UserInterface/AdministrativeRole/ManageEmployeeJPanel.java
-package UserInterface.AdministrativeRole;
-
-import Business.Employee.Employee;
-import Business.Organization.Organization;
-import Business.Organization.OrganizationDirectory;
-=======
 package UI.AdministrativeRole;
 
 import Model.Employee.Employee;
 import Model.Organization.Organization;
 import Model.Organization.OrganizationDirectory;
->>>>>>> Stashed changes:NGO/src/UI/AdministrativeRole/ManageEmployeeJPanel.java
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -55,20 +47,15 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
 
         addJButton = new javax.swing.JButton();
         organizationJComboBox = new javax.swing.JComboBox();
-        jLabel1 = new javax.swing.JLabel();
+        lblOrganization = new javax.swing.JLabel();
         backJButton = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
+        lblName = new javax.swing.JLabel();
         nameJTextField = new javax.swing.JTextField();
         organizationEmpJComboBox = new javax.swing.JComboBox();
-        jLabel3 = new javax.swing.JLabel();
+        lblOrg = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         organizationJTable = new javax.swing.JTable();
-        jLabel4 = new javax.swing.JLabel();
-<<<<<<< Updated upstream:NGO/src/UserInterface/AdministrativeRole/ManageEmployeeJPanel.java
-=======
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
->>>>>>> Stashed changes:NGO/src/UI/AdministrativeRole/ManageEmployeeJPanel.java
+        lblManageEmployee = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
 
@@ -90,9 +77,9 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Bodoni MT", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel1.setText("Organization");
+        lblOrganization.setFont(new java.awt.Font("Bodoni MT", 1, 18)); // NOI18N
+        lblOrganization.setForeground(new java.awt.Color(153, 153, 153));
+        lblOrganization.setText("Organization");
 
         backJButton.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
         backJButton.setForeground(new java.awt.Color(102, 102, 102));
@@ -103,15 +90,15 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Bodoni MT", 1, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel2.setText("Name");
+        lblName.setFont(new java.awt.Font("Bodoni MT", 1, 18)); // NOI18N
+        lblName.setForeground(new java.awt.Color(153, 153, 153));
+        lblName.setText("Name");
 
         organizationEmpJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jLabel3.setFont(new java.awt.Font("Bodoni MT", 1, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel3.setText("Organization");
+        lblOrg.setFont(new java.awt.Font("Bodoni MT", 1, 18)); // NOI18N
+        lblOrg.setForeground(new java.awt.Color(153, 153, 153));
+        lblOrg.setText("Organization");
 
         organizationJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -138,30 +125,22 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(organizationJTable);
 
-        jLabel4.setFont(new java.awt.Font("Bodoni MT", 1, 24)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(127, 180, 50));
-        jLabel4.setText("Manage Employee");
+        lblManageEmployee.setFont(new java.awt.Font("Bodoni MT", 1, 24)); // NOI18N
+        lblManageEmployee.setForeground(new java.awt.Color(127, 180, 50));
+        lblManageEmployee.setText("Manage Employee");
 
-<<<<<<< Updated upstream:NGO/src/UserInterface/AdministrativeRole/ManageEmployeeJPanel.java
-=======
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/employee.PNG"))); // NOI18N
-
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/Union1.png"))); // NOI18N
-
->>>>>>> Stashed changes:NGO/src/UI/AdministrativeRole/ManageEmployeeJPanel.java
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-<<<<<<< Updated upstream:NGO/src/UserInterface/AdministrativeRole/ManageEmployeeJPanel.java
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(6, 6, 6)
-                        .addComponent(jLabel4))
+                        .addComponent(lblManageEmployee))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(21, 21, 21)
-                        .addComponent(jLabel1)
+                        .addComponent(lblOrganization)
                         .addGap(12, 12, 12)
                         .addComponent(organizationJComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(463, 463, 463)
@@ -171,64 +150,29 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 746, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(21, 21, 21)
-                        .addComponent(jLabel3)
+                        .addComponent(lblOrg)
                         .addGap(12, 12, 12)
                         .addComponent(organizationEmpJComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(21, 21, 21)
-                        .addComponent(jLabel2)
+                        .addComponent(lblName)
                         .addGap(65, 65, 65)
                         .addComponent(nameJTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(21, 21, 21)
                         .addComponent(addJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
-=======
-                .addGap(6, 6, 6)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel4)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addGap(12, 12, 12)
-                        .addComponent(organizationJComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(539, 539, 539)
-                        .addComponent(backJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 807, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel3)
-                                .addGap(12, 12, 12)
-                                .addComponent(organizationEmpJComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(109, 109, 109)
-                                .addComponent(nameJTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(addJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(79, 79, 79)
-                        .addComponent(jLabel5))
-                    .addComponent(jLabel2)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(224, 224, 224)
-                        .addComponent(jLabel6))))
->>>>>>> Stashed changes:NGO/src/UI/AdministrativeRole/ManageEmployeeJPanel.java
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-<<<<<<< Updated upstream:NGO/src/UserInterface/AdministrativeRole/ManageEmployeeJPanel.java
                 .addGap(33, 33, 33)
-                .addComponent(jLabel4)
+                .addComponent(lblManageEmployee)
                 .addGap(36, 36, 36)
-=======
-                .addGap(57, 57, 57)
-                .addComponent(jLabel4)
-                .addGap(13, 13, 13)
->>>>>>> Stashed changes:NGO/src/UI/AdministrativeRole/ManageEmployeeJPanel.java
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1)
+                    .addComponent(lblOrganization)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(1, 1, 1)
-<<<<<<< Updated upstream:NGO/src/UserInterface/AdministrativeRole/ManageEmployeeJPanel.java
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(organizationJComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(backJButton))))
@@ -237,44 +181,18 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(23, 23, 23)
-                        .addComponent(jLabel3))
+                        .addComponent(lblOrg))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(24, 24, 24)
                         .addComponent(organizationEmpJComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel2)
+                    .addComponent(lblName)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(1, 1, 1)
                         .addComponent(nameJTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(26, 26, 26)
                 .addComponent(addJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-=======
-                        .addComponent(organizationJComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(backJButton))
-                .addGap(17, 17, 17)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(29, 29, 29)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(15, 15, 15)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel3)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(1, 1, 1)
-                                .addComponent(organizationEmpJComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(36, 36, 36)
-                        .addComponent(nameJTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(63, 63, 63)
-                        .addComponent(addJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jLabel5)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(73, 73, 73)
-                        .addComponent(jLabel2))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addComponent(jLabel6))))
->>>>>>> Stashed changes:NGO/src/UI/AdministrativeRole/ManageEmployeeJPanel.java
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -282,7 +200,6 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
 
         Organization organization = (Organization) organizationEmpJComboBox.getSelectedItem();
         
-        //*************** Validation *******************
         
         String ename = nameJTextField.getText();
         if(ename.equalsIgnoreCase("")){
@@ -350,16 +267,11 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton addJButton;
     private javax.swing.JButton backJButton;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-<<<<<<< Updated upstream:NGO/src/UserInterface/AdministrativeRole/ManageEmployeeJPanel.java
-=======
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
->>>>>>> Stashed changes:NGO/src/UI/AdministrativeRole/ManageEmployeeJPanel.java
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JLabel lblManageEmployee;
+    private javax.swing.JLabel lblName;
+    private javax.swing.JLabel lblOrg;
+    private javax.swing.JLabel lblOrganization;
     private javax.swing.JTextField nameJTextField;
     private javax.swing.JComboBox organizationEmpJComboBox;
     private javax.swing.JComboBox organizationJComboBox;

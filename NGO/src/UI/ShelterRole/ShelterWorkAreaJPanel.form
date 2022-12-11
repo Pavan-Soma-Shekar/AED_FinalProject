@@ -32,6 +32,10 @@
               <Component id="requestTestJButton" min="-2" pref="305" max="-2" attributes="0"/>
           </Group>
           <Group type="102" attributes="0">
+              <EmptySpace min="160" pref="160" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="560" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
               <EmptySpace min="831" pref="831" max="-2" attributes="0"/>
               <Component id="showProductBtn" min="-2" pref="147" max="-2" attributes="0"/>
           </Group>
@@ -43,6 +47,10 @@
           <Group type="102" attributes="0">
               <EmptySpace min="854" pref="854" max="-2" attributes="0"/>
               <Component id="refreshTestJButton" min="-2" pref="118" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="340" pref="340" max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" pref="550" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -66,6 +74,10 @@
                               <Component id="requestTestJButton" min="-2" pref="40" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
+                              <EmptySpace min="85" pref="85" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" pref="400" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
                               <EmptySpace min="359" pref="359" max="-2" attributes="0"/>
                               <Component id="showProductBtn" min="-2" pref="40" max="-2" attributes="0"/>
                           </Group>
@@ -80,6 +92,7 @@
                       <EmptySpace min="99" pref="99" max="-2" attributes="0"/>
                       <Component id="refreshTestJButton" min="-2" pref="30" max="-2" attributes="0"/>
                   </Group>
+                  <Component id="jLabel2" min="-2" pref="480" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="28" max="32767" attributes="0"/>
           </Group>
@@ -237,6 +250,16 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="showProductBtnActionPerformed"/>
       </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel2"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>

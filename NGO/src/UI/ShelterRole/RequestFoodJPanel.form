@@ -29,76 +29,73 @@
                       <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
                       <Component id="valueLabel" min="-2" pref="260" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="79" pref="79" max="-2" attributes="0"/>
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="74" pref="74" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="140" pref="140" max="-2" attributes="0"/>
+                      <Component id="enterpriseLabel" min="-2" pref="240" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="79" pref="79" max="-2" attributes="0"/>
-                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="74" pref="74" max="-2" attributes="0"/>
-                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Component id="backJButton1" min="-2" pref="338" max="-2" attributes="0"/>
-                          <Component id="btnReset" min="-2" pref="338" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <Component id="checkBakery" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="39" pref="39" max="-2" attributes="0"/>
                               <Component id="comboBakeryProducts" min="-2" pref="90" max="-2" attributes="0"/>
                               <EmptySpace min="36" pref="36" max="-2" attributes="0"/>
                               <Component id="quantBakery" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <Component id="checkDairy" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="46" pref="46" max="-2" attributes="0"/>
                               <Component id="comboDairyProducts" min="-2" pref="90" max="-2" attributes="0"/>
                               <EmptySpace min="36" pref="36" max="-2" attributes="0"/>
                               <Component id="quantDairy" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <Component id="checkMeat" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="47" pref="47" max="-2" attributes="0"/>
                               <Component id="comboMeatProducts" min="-2" pref="90" max="-2" attributes="0"/>
                               <EmptySpace min="36" pref="36" max="-2" attributes="0"/>
                               <Component id="quantMeat" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <Component id="checkCereals" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="85" pref="85" max="-2" attributes="0"/>
                               <Component id="comboCerealsProducts" min="-2" pref="90" max="-2" attributes="0"/>
                               <EmptySpace min="36" pref="36" max="-2" attributes="0"/>
                               <Component id="quantCereals" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <Component id="checkVegetables" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="64" pref="64" max="-2" attributes="0"/>
                               <Component id="comboVegetablesProducts" min="-2" pref="90" max="-2" attributes="0"/>
                               <EmptySpace min="36" pref="36" max="-2" attributes="0"/>
                               <Component id="quantVegetables" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <Component id="checkFruits" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="95" pref="95" max="-2" attributes="0"/>
                               <Component id="comboFruitsProducts" min="-2" pref="90" max="-2" attributes="0"/>
                               <EmptySpace min="36" pref="36" max="-2" attributes="0"/>
                               <Component id="quantFruits" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
                               <Component id="messageJTextField" min="-2" pref="210" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="requestTestJButton" alignment="0" min="-2" pref="338" max="-2" attributes="0"/>
+                          <Component id="requestTestJButton" min="-2" pref="338" max="-2" attributes="0"/>
+                          <Component id="backJButton1" min="-2" pref="338" max="-2" attributes="0"/>
+                          <Component id="btnReset" min="-2" pref="338" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                      <Component id="jLabel9" min="-2" pref="105" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
-                          <Component id="enterpriseLabel" min="-2" pref="240" max="-2" attributes="0"/>
-                      </Group>
+                      <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="476" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -122,9 +119,10 @@
                       </Group>
                   </Group>
               </Group>
+              <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="checkBakery" min="-2" max="-2" attributes="0"/>
                           <Group type="102" attributes="0">
@@ -205,16 +203,8 @@
                       <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
                       <Component id="btnReset" min="-2" pref="39" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                      <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="96" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -576,13 +566,6 @@
           <Color blue="32" green="b4" red="7f" type="rgb"/>
         </Property>
         <Property name="text" type="java.lang.String" value="EnterPrise :"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel9">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/UI/Images/Union1.png"/>
-        </Property>
       </Properties>
     </Component>
   </SubComponents>
