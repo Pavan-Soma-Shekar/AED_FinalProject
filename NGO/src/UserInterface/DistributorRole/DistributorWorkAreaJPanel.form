@@ -29,18 +29,27 @@
               <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace min="720" pref="720" max="-2" attributes="0"/>
+                      <Component id="lblWorkRequest" min="-2" pref="200" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="520" max="-2" attributes="0"/>
                       <Component id="refreshJButton" min="-2" pref="112" max="-2" attributes="0"/>
                   </Group>
+<<<<<<< Updated upstream:NGO/src/UserInterface/DistributorRole/DistributorWorkAreaJPanel.form
                   <Component id="jLabel1" min="-2" pref="200" max="-2" attributes="0"/>
                   <Component id="processJButton" min="-2" pref="144" max="-2" attributes="0"/>
                   <Group type="102" attributes="0">
                       <EmptySpace min="184" pref="184" max="-2" attributes="0"/>
                       <Component id="jLabel2" min="-2" pref="550" max="-2" attributes="0"/>
                   </Group>
+=======
+>>>>>>> Stashed changes:NGO/src/UI/DistributorRole/DistributorWorkAreaJPanel.form
                   <Component id="jScrollPane1" min="-2" pref="832" max="-2" attributes="0"/>
-                  <Component id="assignJButton" min="-2" pref="144" max="-2" attributes="0"/>
-                  <Component id="btnSendtoQualityCheck" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="assignJButton" min="-2" pref="144" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="processJButton" min="-2" pref="150" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnSendtoQualityCheck" min="-2" pref="157" max="-2" attributes="0"/>
+                  </Group>
               </Group>
           </Group>
       </Group>
@@ -48,32 +57,38 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <EmptySpace min="5" pref="5" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
+<<<<<<< Updated upstream:NGO/src/UserInterface/DistributorRole/DistributorWorkAreaJPanel.form
                       <EmptySpace min="25" pref="25" max="-2" attributes="0"/>
                       <Component id="refreshJButton" min="-2" pref="35" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace min="22" pref="22" max="-2" attributes="0"/>
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+=======
+                      <EmptySpace min="27" pref="27" max="-2" attributes="0"/>
+                      <Component id="lblWorkRequest" min="-2" max="-2" attributes="0"/>
+>>>>>>> Stashed changes:NGO/src/UI/DistributorRole/DistributorWorkAreaJPanel.form
                   </Group>
                   <Group type="102" attributes="0">
-                      <EmptySpace min="368" pref="368" max="-2" attributes="0"/>
-                      <Component id="processJButton" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace min="328" pref="328" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="assignJButton" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="processJButton" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="btnSendtoQualityCheck" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-                  <Component id="jLabel2" min="-2" pref="390" max="-2" attributes="0"/>
                   <Group type="102" attributes="0">
-                      <EmptySpace min="72" pref="72" max="-2" attributes="0"/>
+                      <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+                      <Component id="refreshJButton" min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="77" pref="77" max="-2" attributes="0"/>
                       <Component id="jScrollPane1" min="-2" pref="239" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="323" pref="323" max="-2" attributes="0"/>
-                      <Component id="assignJButton" min="-2" pref="33" max="-2" attributes="0"/>
-                  </Group>
               </Group>
-              <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
-              <Component id="btnSendtoQualityCheck" min="-2" pref="33" max="-2" attributes="0"/>
+              <EmptySpace pref="57" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -194,6 +209,7 @@
         <Property name="text" type="java.lang.String" value="Work Request"/>
       </Properties>
     </Component>
+<<<<<<< Updated upstream:NGO/src/UserInterface/DistributorRole/DistributorWorkAreaJPanel.form
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
@@ -202,5 +218,7 @@
         <Property name="text" type="java.lang.String" value="jLabel2"/>
       </Properties>
     </Component>
+=======
+>>>>>>> Stashed changes:NGO/src/UI/DistributorRole/DistributorWorkAreaJPanel.form
   </SubComponents>
 </Form>

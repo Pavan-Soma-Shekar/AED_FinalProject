@@ -143,8 +143,12 @@ public class MainJFrame extends javax.swing.JFrame {
 >>>>>>> Stashed changes
         userProcessContainer.setLayout(new java.awt.CardLayout());
 
+<<<<<<< Updated upstream:NGO/src/UserInterface/MainJFrame.java
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/Images/background.png"))); // NOI18N
         jLabel4.setText("jLabel4");
+=======
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/background.png"))); // NOI18N
+>>>>>>> Stashed changes:NGO/src/UI/MainJFrame.java
         userProcessContainer.add(jLabel4, "card2");
 
         jSplitPane.setRightComponent(userProcessContainer);
@@ -309,6 +313,7 @@ public class MainJFrame extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(MainJFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */

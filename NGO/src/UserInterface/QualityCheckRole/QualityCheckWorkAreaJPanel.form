@@ -23,6 +23,7 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
+<<<<<<< Updated upstream:NGO/src/UserInterface/QualityCheckRole/QualityCheckWorkAreaJPanel.form
               <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="697" pref="697" max="-2" attributes="0"/>
@@ -30,71 +31,101 @@
           </Group>
           <Group type="102" attributes="0">
               <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+=======
+>>>>>>> Stashed changes:NGO/src/UI/QualityCheckRole/QualityCheckWorkAreaJPanel.form
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace min="774" pref="774" max="-2" attributes="0"/>
-                      <Component id="showProductBtn" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="148" pref="148" max="-2" attributes="0"/>
+                      <EmptySpace min="154" pref="154" max="-2" attributes="0"/>
                       <Component id="processJButton" min="-2" max="-2" attributes="0"/>
                   </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="882" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Component id="lblWorkReq" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="811" pref="811" max="-2" attributes="0"/>
+                      <Component id="refreshJButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Component id="lblProducts" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="698" max="-2" attributes="0"/>
+                      <Component id="showProductBtn" min="-2" pref="118" max="-2" attributes="0"/>
+                  </Group>
+<<<<<<< Updated upstream:NGO/src/UserInterface/QualityCheckRole/QualityCheckWorkAreaJPanel.form
                   <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                   <Component id="jScrollPane1" min="-2" pref="882" max="-2" attributes="0"/>
+=======
+>>>>>>> Stashed changes:NGO/src/UI/QualityCheckRole/QualityCheckWorkAreaJPanel.form
                   <Group type="102" attributes="0">
-                      <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
-                      <Component id="jLabel3" min="-2" pref="550" max="-2" attributes="0"/>
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="882" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="jScrollPane2" min="-2" pref="882" max="-2" attributes="0"/>
-                  <Component id="assignJButton" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Component id="assignJButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
               </Group>
-          </Group>
-          <Group type="102" attributes="0">
-              <EmptySpace min="370" pref="370" max="-2" attributes="0"/>
-              <Component id="jLabel4" min="-2" pref="550" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
+<<<<<<< Updated upstream:NGO/src/UserInterface/QualityCheckRole/QualityCheckWorkAreaJPanel.form
               <EmptySpace min="33" pref="33" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                   <Component id="refreshJButton" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+=======
+>>>>>>> Stashed changes:NGO/src/UI/QualityCheckRole/QualityCheckWorkAreaJPanel.form
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace min="249" pref="249" max="-2" attributes="0"/>
-                      <Component id="showProductBtn" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="167" pref="167" max="-2" attributes="0"/>
+                      <EmptySpace min="229" pref="229" max="-2" attributes="0"/>
                       <Component id="processJButton" min="-2" pref="36" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="249" pref="249" max="-2" attributes="0"/>
-                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="jScrollPane1" min="-2" pref="161" max="-2" attributes="0"/>
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="118" pref="118" max="-2" attributes="0"/>
-                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="284" pref="284" max="-2" attributes="0"/>
+                      <EmptySpace min="81" pref="81" max="-2" attributes="0"/>
                       <Component id="jScrollPane2" min="-2" pref="107" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
-                      <EmptySpace min="167" pref="167" max="-2" attributes="0"/>
+<<<<<<< Updated upstream:NGO/src/UserInterface/QualityCheckRole/QualityCheckWorkAreaJPanel.form
+                      <EmptySpace min="249" pref="249" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+=======
+                      <EmptySpace min="33" pref="33" max="-2" attributes="0"/>
+                      <Component id="lblWorkReq" min="-2" max="-2" attributes="0"/>
+>>>>>>> Stashed changes:NGO/src/UI/QualityCheckRole/QualityCheckWorkAreaJPanel.form
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="311" pref="311" max="-2" attributes="0"/>
+                      <Component id="lblProducts" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="229" pref="229" max="-2" attributes="0"/>
                       <Component id="assignJButton" min="-2" pref="36" max="-2" attributes="0"/>
                   </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="33" pref="33" max="-2" attributes="0"/>
+                              <Component id="refreshJButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="62" pref="62" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" pref="161" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                      <Component id="showProductBtn" min="-2" pref="33" max="-2" attributes="0"/>
+                  </Group>
               </Group>
-          </Group>
-          <Group type="102" attributes="0">
-              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-              <Component id="jLabel4" min="-2" pref="310" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -249,6 +280,7 @@
         <Property name="text" type="java.lang.String" value="Products"/>
       </Properties>
     </Component>
+<<<<<<< Updated upstream:NGO/src/UserInterface/QualityCheckRole/QualityCheckWorkAreaJPanel.form
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
@@ -265,5 +297,7 @@
         <Property name="text" type="java.lang.String" value="jLabel4"/>
       </Properties>
     </Component>
+=======
+>>>>>>> Stashed changes:NGO/src/UI/QualityCheckRole/QualityCheckWorkAreaJPanel.form
   </SubComponents>
 </Form>
