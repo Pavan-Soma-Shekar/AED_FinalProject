@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package UI;
+package UserInterface;
 
-import Model.DB4OUtil.DB4OUtil;
-import Model.EcoSystem;
-import Model.Enterprise.Enterprise;
-import Model.Network.Network;
-import Model.Organization.Organization;
-import Model.UserAccount.UserAccount;
+import Business.DB4OUtil.DB4OUtil;
+import Business.EcoSystem;
+import Business.Enterprise.Enterprise;
+import Business.Network.Network;
+import Business.Organization.Organization;
+import Business.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import java.util.Properties;
 import javax.mail.Message.RecipientType;
@@ -36,11 +36,10 @@ public class MainJFrame extends javax.swing.JFrame {
     
     public MainJFrame() {
         initComponents();
-        disableWarning();
         system = dB4OUtil.retrieveSystem();
         this.setSize(1680, 1050);
     }
-    
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -55,8 +54,8 @@ public class MainJFrame extends javax.swing.JFrame {
         txtUsername = new javax.swing.JTextField();
         txtPassword = new javax.swing.JTextField();
         btnLogin = new javax.swing.JButton();
-        usernameLabel = new javax.swing.JLabel();
-        passwordLabel = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         btnLogout = new javax.swing.JButton();
         txtPasswordField = new javax.swing.JPasswordField();
         enterpriseLabel = new javax.swing.JLabel();
@@ -85,15 +84,15 @@ public class MainJFrame extends javax.swing.JFrame {
         });
         upperContainer.add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 104, 20));
 
-        usernameLabel.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
-        usernameLabel.setForeground(new java.awt.Color(153, 153, 153));
-        usernameLabel.setText("Username");
-        upperContainer.add(usernameLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, -1, -1));
+        jLabel1.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel1.setText("Username");
+        upperContainer.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, -1, -1));
 
-        passwordLabel.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
-        passwordLabel.setForeground(new java.awt.Color(153, 153, 153));
-        passwordLabel.setText("Password");
-        upperContainer.add(passwordLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 40, -1, -1));
+        jLabel2.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel2.setText("Password");
+        upperContainer.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 40, -1, -1));
 
         btnLogout.setBackground(new java.awt.Color(247, 183, 13));
         btnLogout.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
@@ -109,16 +108,47 @@ public class MainJFrame extends javax.swing.JFrame {
 
         enterpriseLabel.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
         enterpriseLabel.setForeground(new java.awt.Color(127, 180, 50));
-        enterpriseLabel.setText("NGO MANAGEMENT SYSTEM");
+        enterpriseLabel.setText("FOOD MANAGEMENT SYSTEM");
         upperContainer.add(enterpriseLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 20, 500, 60));
 
         jSplitPane.setTopComponent(upperContainer);
 
         userProcessContainer.setBackground(new java.awt.Color(255, 255, 255));
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+        userProcessContainer.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel4.setFont(new java.awt.Font("Bodoni MT Black", 1, 48)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(127, 180, 50));
+        jLabel4.setText("NGO MANAGEMENT SYSTEM");
+        userProcessContainer.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 10, -1, -1));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/Images/background.png"))); // NOI18N
+        userProcessContainer.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, -1, -1));
+
+        jSplitPane1.setRightComponent(userProcessContainer);
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jSplitPane1)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jSplitPane1)
+        );
+=======
+=======
+>>>>>>> Stashed changes
         userProcessContainer.setLayout(new java.awt.CardLayout());
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/background.png"))); // NOI18N
+<<<<<<< Updated upstream:NGO/src/UserInterface/MainJFrame.java
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/Images/background.png"))); // NOI18N
         jLabel4.setText("jLabel4");
+=======
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/background.png"))); // NOI18N
+>>>>>>> Stashed changes:NGO/src/UI/MainJFrame.java
         userProcessContainer.add(jLabel4, "card2");
 
         jSplitPane.setRightComponent(userProcessContainer);
@@ -145,11 +175,6 @@ public class MainJFrame extends javax.swing.JFrame {
         crdLyt.next(userProcessContainer);
         dB4OUtil.storeSystem(system);
     }//GEN-LAST:event_btnLogoutActionPerformed
-
-    public static void disableWarning() {
-        System.err.close();
-        System.setErr(System.out);
-    }
 
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
 
@@ -216,6 +241,47 @@ public class MainJFrame extends javax.swing.JFrame {
             layout.next(userProcessContainer);
         }
 
+        //***************************** Starting of Email Logic
+
+        Properties props = new Properties();
+        props.put("mail.smtp.host", "smtp.gmail.com");
+        props.put("mail.smtp.port", 465);
+        props.put("mail.smtp.user", "voidxisalive@gmail.com");
+        props.put("mail.smtp.auth", "true");
+        props.put("mail.smtp.starttls.enable", "true");
+        props.put("mail.smtp.debug", "true");
+        props.put("mail.smtp.socketFactory.port", 465);
+        props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
+        props.put("mail.smtp.socketFactory.fallback", "false");
+        try {
+            //Class.forName("com.mysql.jdbc.Driver");
+            // Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/shoppingcart","root","Bintu2018$");
+            // String query = "select Password from users where EmailAddress LIKE '"+jTextFieldEmailAdd.getText().trim()+"'";
+            //PreparedStatement statmnt = con.prepareStatement(query);
+            //ResultSet result = statmnt.executeQuery();
+            // if (result.next())
+            // {
+                // String fetchedPassword = result.getString("Password");
+                Session session = Session.getDefaultInstance(props, null);
+                session.setDebug(true);
+                MimeMessage message = new MimeMessage(session);
+                message.setText("The person login is" + " " +userName);
+                message.setSubject("Login Person");
+                message.setFrom(new InternetAddress("voidxisalive@gmail.com"));
+                message.addRecipient(RecipientType.TO, new InternetAddress("voidxisalive@gmail.com"));
+                message.saveChanges();
+                Transport transport = session.getTransport("smtp");
+                transport.connect("smtp.gmail.com", "voidxisalive@gmail.com", "Voidx@12345");
+                transport.sendMessage(message, message.getAllRecipients());
+                transport.close();
+                //jLabelResponse.setText("Your password mailed to you");
+                // }
+        } catch (Exception e) {
+            e.printStackTrace();
+            //jLabelResponse.setText("Email Address not found");
+        }
+        //*************************************End of addition for sending mail
+
         btnLogin.setEnabled(false);
         btnLogout.setEnabled(true);
         txtUsername.setEnabled(false);
@@ -248,6 +314,7 @@ public class MainJFrame extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(MainJFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
+        //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -261,14 +328,14 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JButton btnLogin;
     private javax.swing.JButton btnLogout;
     private javax.swing.JLabel enterpriseLabel;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JSplitPane jSplitPane;
-    private javax.swing.JLabel passwordLabel;
     private javax.swing.JTextField txtPassword;
     private javax.swing.JPasswordField txtPasswordField;
     private javax.swing.JTextField txtUsername;
     private javax.swing.JPanel upperContainer;
     private javax.swing.JPanel userProcessContainer;
-    private javax.swing.JLabel usernameLabel;
     // End of variables declaration//GEN-END:variables
 }
