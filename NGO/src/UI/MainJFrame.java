@@ -60,6 +60,7 @@ public class MainJFrame extends javax.swing.JFrame {
         btnLogout = new javax.swing.JButton();
         txtPasswordField = new javax.swing.JPasswordField();
         enterpriseLabel = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
         userProcessContainer = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
 
@@ -110,7 +111,10 @@ public class MainJFrame extends javax.swing.JFrame {
         enterpriseLabel.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
         enterpriseLabel.setForeground(new java.awt.Color(127, 180, 50));
         enterpriseLabel.setText("NGO MANAGEMENT SYSTEM");
-        upperContainer.add(enterpriseLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 20, 500, 60));
+        upperContainer.add(enterpriseLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 20, 500, 60));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/logo.PNG"))); // NOI18N
+        upperContainer.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 0, 100, 90));
 
         jSplitPane.setTopComponent(upperContainer);
 
@@ -118,7 +122,6 @@ public class MainJFrame extends javax.swing.JFrame {
         userProcessContainer.setLayout(new java.awt.CardLayout());
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/background.png"))); // NOI18N
-        jLabel4.setText("jLabel4");
         userProcessContainer.add(jLabel4, "card2");
 
         jSplitPane.setRightComponent(userProcessContainer);
@@ -261,6 +264,7 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JButton btnLogin;
     private javax.swing.JButton btnLogout;
     private javax.swing.JLabel enterpriseLabel;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JSplitPane jSplitPane;
     private javax.swing.JLabel passwordLabel;
