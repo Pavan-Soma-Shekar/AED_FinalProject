@@ -23,34 +23,26 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
-              <Component id="lblWorkReq" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="697" pref="697" max="-2" attributes="0"/>
-              <Component id="refreshJButton" min="-2" max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" attributes="0">
-              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace min="774" pref="774" max="-2" attributes="0"/>
-                      <Component id="showProductBtn" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblWorkReq" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="697" pref="697" max="-2" attributes="0"/>
+                      <Component id="refreshJButton" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
-                      <EmptySpace min="148" pref="148" max="-2" attributes="0"/>
-                      <Component id="processJButton" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblProducts" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="699" max="-2" attributes="0"/>
+                      <Component id="showProductBtn" min="-2" pref="117" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="lblProducts" min="-2" max="-2" attributes="0"/>
                   <Component id="jScrollPane1" min="-2" pref="882" max="-2" attributes="0"/>
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
-                      <Component id="jLabel3" min="-2" pref="550" max="-2" attributes="0"/>
-                  </Group>
                   <Component id="jScrollPane2" min="-2" pref="882" max="-2" attributes="0"/>
-                  <Component id="assignJButton" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="assignJButton" min="-2" pref="142" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="processJButton" min="-2" pref="153" max="-2" attributes="0"/>
+                  </Group>
               </Group>
-          </Group>
-          <Group type="102" attributes="0">
-              <EmptySpace min="370" pref="370" max="-2" attributes="0"/>
-              <Component id="jLabel4" min="-2" pref="550" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -66,20 +58,12 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace min="249" pref="249" max="-2" attributes="0"/>
-                      <Component id="showProductBtn" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="167" pref="167" max="-2" attributes="0"/>
-                      <Component id="processJButton" min="-2" pref="36" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="249" pref="249" max="-2" attributes="0"/>
                       <Component id="lblProducts" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="jScrollPane1" min="-2" pref="161" max="-2" attributes="0"/>
                   <Group type="102" attributes="0">
-                      <EmptySpace min="118" pref="118" max="-2" attributes="0"/>
-                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="161" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                      <Component id="showProductBtn" min="-2" pref="31" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace min="284" pref="284" max="-2" attributes="0"/>
@@ -87,13 +71,13 @@
                   </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace min="167" pref="167" max="-2" attributes="0"/>
-                      <Component id="assignJButton" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="assignJButton" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                          <Component id="processJButton" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
               </Group>
-          </Group>
-          <Group type="102" attributes="0">
-              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-              <Component id="jLabel4" min="-2" pref="310" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -246,22 +230,6 @@
           <Color blue="32" green="b4" red="7f" type="rgb"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Products"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/UI/Images/Union1.png"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="jLabel3"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel4">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/UI/Images/Union.png"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="jLabel4"/>
       </Properties>
     </Component>
   </SubComponents>

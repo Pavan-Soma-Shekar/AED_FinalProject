@@ -32,10 +32,14 @@
                       <Component id="refreshJButton" min="-2" pref="112" max="-2" attributes="0"/>
                   </Group>
                   <Component id="lblWorkRequest" min="-2" pref="200" max="-2" attributes="0"/>
-                  <Component id="processJButton" min="-2" pref="144" max="-2" attributes="0"/>
                   <Component id="jScrollPane1" min="-2" pref="832" max="-2" attributes="0"/>
-                  <Component id="assignJButton" min="-2" pref="144" max="-2" attributes="0"/>
-                  <Component id="btnSendtoQualityCheck" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="assignJButton" min="-2" pref="144" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="processJButton" min="-2" pref="150" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="btnSendtoQualityCheck" min="-2" pref="154" max="-2" attributes="0"/>
+                  </Group>
               </Group>
           </Group>
       </Group>
@@ -53,20 +57,19 @@
                       <Component id="lblWorkRequest" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="373" max="-2" attributes="0"/>
-                      <Component id="processJButton" min="-2" pref="33" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
                       <Component id="jScrollPane1" min="-2" pref="239" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="328" max="-2" attributes="0"/>
-                      <Component id="assignJButton" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="assignJButton" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="processJButton" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="btnSendtoQualityCheck" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
               </Group>
-              <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
-              <Component id="btnSendtoQualityCheck" min="-2" pref="33" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
