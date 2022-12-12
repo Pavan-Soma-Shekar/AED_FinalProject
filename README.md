@@ -28,5 +28,5 @@ Quality Check Admin
 Quality Check Officer Class Diagram: Object/Component Diagram: Use Case Diagram:
 
 ![Image ](UseCase.jpeg)
-![Image](UML%20Diagram.png)
+![Alt text](UML%20Diagram.png)
 ![Image](classdiagram.jpeg)
